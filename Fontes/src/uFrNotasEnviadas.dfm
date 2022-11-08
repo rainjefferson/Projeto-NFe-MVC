@@ -1,0 +1,70 @@
+object FrNotasEnviadas: TFrNotasEnviadas
+  Left = 0
+  Top = 0
+  Width = 537
+  Height = 399
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  ParentFont = False
+  TabOrder = 0
+  object Panel1: TPanel
+    Left = 0
+    Top = 365
+    Width = 537
+    Height = 34
+    Align = alBottom
+    TabOrder = 0
+    object btnCancelarSefaz: TButton
+      AlignWithMargins = True
+      Left = 364
+      Top = 4
+      Width = 75
+      Height = 26
+      Margins.Right = 1
+      Align = alRight
+      Caption = 'Cancelar'
+      TabOrder = 0
+      ExplicitLeft = 362
+      ExplicitTop = 5
+      ExplicitHeight = 24
+    end
+    object btnImprimir: TButton
+      AlignWithMargins = True
+      Left = 441
+      Top = 4
+      Width = 75
+      Height = 26
+      Margins.Left = 1
+      Margins.Right = 20
+      Align = alRight
+      Caption = 'Imprimir'
+      TabOrder = 1
+      ExplicitLeft = 439
+      ExplicitHeight = 25
+    end
+  end
+  object Panel2: TPanel
+    Left = 0
+    Top = 0
+    Width = 537
+    Height = 365
+    Align = alClient
+    TabOrder = 1
+    object DBGrid1: TDBGrid
+      Left = 1
+      Top = 1
+      Width = 535
+      Height = 363
+      Align = alClient
+      TabOrder = 0
+      TitleFont.Charset = DEFAULT_CHARSET
+      TitleFont.Color = clWindowText
+      TitleFont.Height = -11
+      TitleFont.Name = 'Tahoma'
+      TitleFont.Style = []
+    end
+  end
+end
